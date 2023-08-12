@@ -1,13 +1,52 @@
 .header {
     background-color:rgb(200, 225, 229);
     margin-top:-10px;
-    margin-left:-10px;
-    width:120%;
+    width:100%;
     height:15%;
+}
+
+.left_nav {
+    text-align:left;
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+
+.right_nav {
+    text-align:right;
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+
+.linkL {
+    float:left;
+    margin-top:35px;
+}
+
+.linkR {
+    float:right;
+    margin-top:35px;
+}
+
+a {
+    font-size:30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+    display: block;
+    padding-right: 50px;
+    padding-left:50px;
+    background-color:rgb(200, 225, 229);
+    text-decoration:none;
 }
 
 body {
     background-color:black;
+}
+
+.titler {
+    text-align:center;
+    margin:-20px;
 }
 
 .logo {
@@ -23,13 +62,33 @@ body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing:10px;
     display: inline-block;
-    border: 2px solid white;
-    padding: 10px;
+    border-bottom: 2px solid white;
+    padding: 20px;
+    margin-top:-2px;
 }
 
-.titler {
+.hook {
+    color:white;
+    font-size:80px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:4px;
+    border-style:double;
+    display:inline-block;
+    padding:20;
+}
+
+.description {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    letter-spacing:2px;
+    background-color:white;
+    color:black;
+    padding:20px;
+    margin:0 270px;
+}
+
+.general_statement {
     text-align:center;
-    margin:-20px;
 }
 
 .footer {
