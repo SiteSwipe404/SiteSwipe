@@ -1,32 +1,45 @@
+.body, html {
+    /* set the body of the document flow to default to eliminat unecessar spacing */
+    height:100%;
+    padding:0%;
+    margin:0%;
+    background-color:black;
+    text-align:center;
+}
+
 .header {
+    /* fixed position keeps the header at the top of the page at all times */
+    position:fixed;
     background-color:rgb(200, 225, 229);
-    margin-top:-10px;
     width:100%;
     height:15%;
+    left:0%;
+    top:0%;
+    z-index:100;
+}
+
+.navigation {
+    margin-top:2.3%;
 }
 
 .left_nav {
-    text-align:left;
     list-style-type:none;
-    padding:0px;
-    margin:0px;
+    padding:0%;
+    margin:0%;
 }
 
 .right_nav {
-    text-align:right;
     list-style-type:none;
-    padding:0px;
-    margin:0px;
+    padding:0%;
+    margin:0%;
 }
 
 .linkL {
     float:left;
-    margin-top:35px;
 }
 
 .linkR {
     float:right;
-    margin-top:35px;
 }
 
 a {
@@ -40,59 +53,57 @@ a {
     text-decoration:none;
 }
 
-body {
-    background-color:black;
-}
-
-.titler {
-    text-align:center;
-    margin:-20px;
-}
-
 .logo {
+    position:sticky;
+    top:1.8%;
     width:5%;
     height:10%;
-    display:block;
     margin:auto;
-    margin-top:-40px;
+    margin-top:4.7%;
+    display:block;
+    border: 5px solid rgb(27, 200, 177);
+    z-index:101;
 }
 
 .title {
+    position:static;
+    padding: 1.37%;
+    display: inline-block;
     color:white;
+    text-align:center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing:10px;
-    display: inline-block;
     border-bottom: 2px solid white;
-    padding: 20px;
-    margin-top:-2px;
 }
 
 .hook {
+    position:static;
+    padding:1.37%;
+    display:inline-block;
     color:white;
     font-size:80px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing:4px;
+    letter-spacing:0.27%;
     border-style:double;
-    display:inline-block;
-    padding:20;
 }
 
 .description {
+    position:static;
+    background-color:white;
+    padding:1.37%;
+    margin:0 20.7%;
     font-family:Arial, Helvetica, sans-serif;
     font-size:30px;
-    letter-spacing:2px;
-    background-color:white;
+    letter-spacing:0.13%;
     color:black;
-    padding:20px;
-    margin:0 270px;
-}
-
-.general_statement {
-    text-align:center;
 }
 
 .footer {
+    position:relative;
     background-color:rgb(200, 225, 229);
+    left:0%;
+    width:100%;
+    height:5%
 }
 
 .copyright {
